@@ -60,10 +60,5 @@ module.exports = {
         submitBtn: {selector: '//button[@id="StickySubmit"]', locateStrategy: 'xpath'},        
 
 
-
-
-
-
-
     }
 }
