@@ -7,6 +7,7 @@ module.exports = {
         maestroBtn: { selector: '//a[contains(text(), "DESIGN MAESTRO")]', locateStrategy: 'xpath' },
         yofaceBtn: { selector: '//a[contains(text(), "DESIGN YOFACE")]', locateStrategy: 'xpath' },
 //Graphics choice Options
+        dropGraphic: {selector: '//a[@data-reactid=".0.0.0.0.2.1.0.0"]', locateStrategy: 'xpath'},
         lionGraphic: { selector: '//img[contains(@data-reactid,".0.0.0.0.2.1.1.1.0.0.1.0")]', locateStrategy: 'xpath' },
         djGraphic: { selector: '//img[contains(@data-reactid,".0.0.0.0.2.1.1.1.0.1.1.0")]', locateStrategy: 'xpath' },
         powerGraphic: { selector: '//img[contains(@data-reactid,".0.0.0.0.2.1.1.1.0.2.1.0")]', locateStrategy: 'xpath' },
@@ -18,6 +19,7 @@ module.exports = {
         bustinGraphic: { selector: '//img[contains(@data-reactid,".0.0.0.0.2.1.1.1.0.8.1.0")]', locateStrategy: 'xpath' },
         catgirlGraphic: { selector: '//img[contains(@data-reactid,".0.0.0.0.2.1.1.1.0.9.1.0")]', locateStrategy: 'xpath' },
 //Background Stains
+        dropStain: {selector: '//a[@data-reactid=".0.0.0.0.2.2.0.0"]', locateStrategy: 'xpath'},
         woodStain: {selector: '//img[@data-reactid=".0.0.0.0.2.2.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
         whiteStain: {selector: '//img[@data-reactid=".0.0.0.0.2.2.1.1.0.1.1.0"]', locateStrategy: 'xpath'},
         blackStain: {selector: '//img[@data-reactid=".0.0.0.0.2.2.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
@@ -29,6 +31,14 @@ module.exports = {
         finishRainbow: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.2.1.0"]',locateStrategy: 'xpath'},
         finishPurple: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.3.1.0"]',locateStrategy: 'xpath'},
         finishBlueLine: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.4.1.0"]',locateStrategy: 'xpath'},
+//Truck Color
+        dropTruck: {selector: '//a[@data-reactid=".0.0.0.0.2.4.0.0"]', locateStrategy: 'xpath'},
+        blackTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
+        blueTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.1.1.0"]', locateStrategy: 'xpath'},
+        greenTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
+        goldTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
+        noTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
+        
 
 
 
