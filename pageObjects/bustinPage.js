@@ -40,7 +40,8 @@ module.exports = {
         noTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
 //Cart
         cartbtn: {selector: '//button[@data-reactid=".0.0.0.0.2.0.1.0"]', locateStrategy: 'xpath'},
-
+        checkOut: {selector: '//button[@id="StickySubmit"]', locateStrategy: 'xpath'},
+        
 
 
 
