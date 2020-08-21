@@ -2,7 +2,11 @@ module.exports = {
     url: 'https://bustinboards.com/collections/who-makes-the-best-longboard-or-skateboard-you-do',
     elements: {
 
+<<<<<<< HEAD
         //Start page Buttons
+=======
+//Start page Buttons
+>>>>>>> d93ffb481f0319d97a820cb5db70ece171808d01
         sportsterBtn: { selector: '//a[contains(text(), "DESIGN SPORTSTER")]', locateStrategy: 'xpath' },
         shrikeBtn: { selector: '//a[contains(text(), "DESIGN SHRIKE")]', locateStrategy: 'xpath' },
         maestroBtn: { selector: '//a[contains(text(), "DESIGN MAESTRO")]', locateStrategy: 'xpath' },
