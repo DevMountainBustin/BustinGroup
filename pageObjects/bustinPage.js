@@ -40,7 +40,6 @@ module.exports = {
         greenTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
         goldTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         noTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
-<<<<<<< HEAD
         //Bearing Selection
         abec7Bear: {selector: '//a[@data-reactid=".0.0.0.0.2.6.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
         abec9Bear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.1.1.0"]', locateStrategy: 'xpath'},
@@ -48,7 +47,6 @@ module.exports = {
         sixballBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         ceramicBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
         noBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.5.1.0"]', locateStrategy: 'xpath'},
-=======
         //Wheel Color
         dropWheel: {selector: '//a[@data-reactid=".0.0.0.0.2.5.0.0"]', locateStrategy: 'xpath'},
         clearWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
@@ -57,7 +55,7 @@ module.exports = {
         blackWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         noWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.4.1.0"]', locateStrategy: 'xpath'}
         
->>>>>>> ba40704b78aee56ded3ba27c59eb561dea3ca179
+
 
 
 
