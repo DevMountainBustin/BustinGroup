@@ -38,7 +38,8 @@ module.exports = {
         greenTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
         goldTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         noTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
-        
+//Cart
+        cartbtn: {selector: '//button[@data-reactid=".0.0.0.0.2.0.1.0"]', locateStrategy: 'xpath'},
 
 
 
