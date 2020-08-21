@@ -1,6 +1,7 @@
 module.exports = {
     url: 'https://bustinboards.com/collections/who-makes-the-best-longboard-or-skateboard-you-do',
     elements: {
+
 //Start page Buttons
         sportsterBtn: { selector: '//a[contains(text(), "DESIGN SPORTSTER")]', locateStrategy: 'xpath' },
         shrikeBtn: { selector: '//a[contains(text(), "DESIGN SHRIKE")]', locateStrategy: 'xpath' },
