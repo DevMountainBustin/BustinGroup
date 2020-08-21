@@ -27,6 +27,7 @@ module.exports = {
         redStain: {selector: '//img[@data-reactid=".0.0.0.0.2.2.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         yellowStain: {selector: '//img[@data-reactid=".0.0.0.0.2.2.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
         //Artist finish Colors
+        dropFinish: {selector: '//a[@data-reactid=".0.0.0.0.2.3.0.0"]', locateStrategy: 'xpath'},
         finishBlue: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.0.1.0"]',locateStrategy: 'xpath'},
         finishGreen: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.1.1.0"]',locateStrategy: 'xpath'},
         finishRainbow: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.2.1.0"]',locateStrategy: 'xpath'},
@@ -39,6 +40,13 @@ module.exports = {
         greenTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
         goldTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         noTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
+        //Wheel Color
+        dropWheel: {selector: '//a[@data-reactid=".0.0.0.0.2.5.0.0"]', locateStrategy: 'xpath'},
+        clearWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
+        blueWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.1.1.0"]', locateStrategy: 'xpath'},
+        orangeWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
+        blackWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
+        noWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.4.1.0"]', locateStrategy: 'xpath'}
         
 
 
