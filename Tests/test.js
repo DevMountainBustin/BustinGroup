@@ -4,7 +4,7 @@ module.exports = {
     beforeEach: browser => {
         bustinPage = browser.page.bustinPage()
         bustinPage.navigate()
-        browser.resizeWindow(1920, 1080)
+        browser.maximizeWindow()
     },
     after: browser => {
         bustinPage.end()

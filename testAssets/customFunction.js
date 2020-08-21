@@ -9,18 +9,18 @@ var i
 
 module.exports = (page,boardChoice,graphicChoice,backgroundChoice,artistFinishChoice,truckChoice,wheelChoice,bearingChoice) => {
     page
-        .waitForElementVisible('@sportsterBtn')
+        .waitForElementPresent('@sportsterBtn')
 for(i=0; i<4; i++){
 
-    if(boardChoice===boardChoiceArray[i]){
+    if(boardChoice===boardArray[i]){
         page
-        .waitForElementVisible(boardChoiceArray[i])
-        .click(boardChoiceArray[i])
+        .waitForElementPresent(boardArray[i])
+        .click(boardArray[i])
     }
 }
         page
         .waitForElementVisible('@dropGraphic')
-        .click('@dropGraphic')
+        //.click('@dropGraphic')
         .pause(1000)
 for(i=0; i<10; i++){
 
