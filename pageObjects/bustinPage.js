@@ -26,13 +26,20 @@ module.exports = {
         blackStain: {selector: '//img[@data-reactid=".0.0.0.0.2.2.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
         redStain: {selector: '//img[@data-reactid=".0.0.0.0.2.2.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         yellowStain: {selector: '//img[@data-reactid=".0.0.0.0.2.2.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
+        //Artist finish Colors
+        finishBlue: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.0.1.0"]',locateStrategy: 'xpath'},
+        finishGreen: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.1.1.0"]',locateStrategy: 'xpath'},
+        finishRainbow: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.2.1.0"]',locateStrategy: 'xpath'},
+        finishPurple: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.3.1.0"]',locateStrategy: 'xpath'},
+        finishBlueLine: {selector: '//img[@data-reactid=".0.0.0.0.2.3.1.1.0.4.1.0"]',locateStrategy: 'xpath'},
         //Truck Color
         dropTruck: {selector: '//a[@data-reactid=".0.0.0.0.2.4.0.0"]', locateStrategy: 'xpath'},
         blackTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
         blueTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.1.1.0"]', locateStrategy: 'xpath'},
         greenTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
         goldTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
-        noTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.4.1.0"]', locateStrategy: 'xpath'}
+        noTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
+        
 
 
 
