@@ -39,7 +39,13 @@ module.exports = {
         greenTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
         goldTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         noTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
-        
+        //Bearing Selection
+        abec7Bear: {selector: '//a[@data-reactid=".0.0.0.0.2.6.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
+        abec9Bear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.1.1.0"]', locateStrategy: 'xpath'},
+        abec9BuiltBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
+        sixballBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
+        ceramicBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
+        noBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.5.1.0"]', locateStrategy: 'xpath'},
 
 
 
