@@ -8,6 +8,7 @@ module.exports = {
         maestroBtn: { selector: '//a[contains(text(), "DESIGN MAESTRO")]', locateStrategy: 'xpath' },
         yofaceBtn: { selector: '//a[contains(text(), "DESIGN YOFACE")]', locateStrategy: 'xpath' },
         //Graphics choice Options
+        dropGraphic: {selector: '//a[@data-reactid=".0.0.0.0.2.1.0.0"]', locateStrategy: 'xpath'},
         lionGraphic: { selector: '//img[contains(@data-reactid,".0.0.0.0.2.1.1.1.0.0.1.0")]', locateStrategy: 'xpath' },
         djGraphic: { selector: '//img[contains(@data-reactid,".0.0.0.0.2.1.1.1.0.1.1.0")]', locateStrategy: 'xpath' },
         powerGraphic: { selector: '//img[contains(@data-reactid,".0.0.0.0.2.1.1.1.0.2.1.0")]', locateStrategy: 'xpath' },
