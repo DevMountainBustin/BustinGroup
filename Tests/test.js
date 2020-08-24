@@ -11,13 +11,22 @@ module.exports = {
     },
 
 
-    'User can complete the Bustin Board custom board utility': browser => {
-        bustinPage
-        customFunction(bustinPage,'@shrikeBtn','@wolfGraphic','@blackStain','@finishPurple','@goldTruck','@orangeWheel','@sixballBear')
-        bustinPage
+    // 'User can complete the Bustin Board custom board utility': browser => {
+    //     bustinPage
+    //     customFunction(bustinPage,'@shrikeBtn','@wolfGraphic','@blackStain','@finishPurple','@goldTruck','@orangeWheel','@sixballBear')
+    //     bustinPage
 
         
 
-    },
+    // },
+    'Test selectors': browser => {
+        bustinPage
+        .click('@sportsterBtn')
+        .click('@dropTruck')
+        .pause(500)
+        .click('@goldTruck')
+        .click('@cartBtn')
+        .verify.elementPresent('//div/*[contains(text(), "Truck")] | //div/*[contains(text(), "Gold")]')
+    }
     
 }
