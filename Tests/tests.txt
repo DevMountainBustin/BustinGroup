@@ -45,3 +45,5 @@ User can complete custom longboard config with the 6-Ball Built-In bearings
 User can complete custom longboard config with the Ceramic Built-In bearings
 User can complete custom longboard config with no bearings
 
+//Bugs
+When user chooses Yann graphic with blueline finish the board is never added to the cart

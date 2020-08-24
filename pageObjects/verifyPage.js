@@ -33,6 +33,7 @@ module.exports = {
         blueTrkVerif: {selector: '//div[a[contains(text(), "Caliber Truck Co.")] and div[contains(text(), "Satin Blue")]]', locateStrategy: 'xpath'},
         greenTrkVerif: {selector: '//div[a[contains(text(), "Caliber Truck Co.")] and div[contains(text(), "Satin Green")]]', locateStrategy: 'xpath'},
         goldTrkVerif: {selector: '//div[a[contains(text(), "Caliber Truck Co.")] and div[contains(text(), "Gold")]]', locateStrategy: 'xpath'},
+        yoBlackTrkVerif: {selector: '//div[a[contains(text(), "Yoface Truck Choice")] and div[contains(text(), "Black")]]', locateStrategy: 'xpath'},
         //Wheels
         clearWhlVerif: {selector: '//div[a[contains(text(), "Premier Formula")] and div[contains(text(), "Clear")]]', locateStrategy: 'xpath'},
         blueWhlVerif: {selector: '//div[a[contains(text(), "Premier Formula")] and div[contains(text(), "Blue")]]', locateStrategy: 'xpath'},

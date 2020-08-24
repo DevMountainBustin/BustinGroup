@@ -47,7 +47,8 @@ module.exports = {
         blackWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         noWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
         //Bearing Selection
-        abec7Bear: {selector: '//a[@data-reactid=".0.0.0.0.2.6.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
+        dropBear: {selector: '//a[@data-reactid=".0.0.0.0.2.6.0.0"]', locateStrategy: 'xpath'},
+        abec7Bear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
         abec9Bear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.1.1.0"]', locateStrategy: 'xpath'},
         abec9BuiltBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
         sixballBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
@@ -56,8 +57,13 @@ module.exports = {
         //Cart
         cartBtn: {selector: '//button[@data-reactid=".0.0.0.0.2.0.1.0"]', locateStrategy: 'xpath'},
         submitBtn: {selector: '//button[@id="StickySubmit"]', locateStrategy: 'xpath'},
-        
-        
+        //YoFace Selectors
+        yoBlackTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
+        yoNoTruck: {selector: '//img[@data-reactid=".0.0.0.0.2.4.1.1.0.1.1.0"]', locateStrategy: 'xpath'},
+        yoBlueWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.0.1.0"]', locateStrategy: 'xpath'},
+        yoOrangeWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.1.1.0"]', locateStrategy: 'xpath'},
+        yoBlackWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
+        yoNoWheel: {selector: '//img[@data-reactid=".0.0.0.0.2.5.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         
 
 

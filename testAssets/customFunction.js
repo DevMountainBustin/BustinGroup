@@ -2,8 +2,8 @@ let boardArray = ['@sportsterBtn','@shrikeBtn','@maestroBtn','@yofaceBtn']
 let graphicChoiceArray = ['@lionGraphic','@djGraphic','@powerGraphic','@wolfGraphic','@dragonGraphic','@shoesGraphic','@eyeGraphic','@statueGraphic','@bustinGraphic','@catgirlGraphic']
 let backgroundArray = ['@woodStain','@whiteStain','@blackStain','@redStain','@yellowStain']
 let artistArray = ['@finishBlue','@finishGreen','@finishRainbow','@finishPurple','@finishBlueLine']
-let truckArray = ['@blackTruck','@blueTruck','@greenTruck','@goldTruck','@noTruck']
-let wheelArray = ['@clearWheel','@blueWheel','@orangeWheel','@blackWheel','@noWheel']
+let truckArray = ['@blackTruck','@blueTruck','@greenTruck','@goldTruck','@noTruck','@yoBlackTruck','@yoNoTruck']
+let wheelArray = ['@clearWheel','@blueWheel','@orangeWheel','@blackWheel','@noWheel','@yoBlueWheel','yoOrangeWheel','@yoBlackWheel','@yoNoWheel']
 let bearingArray = ['@abec7Bear','@abec9Bear','@abec9BuiltBear','@sixballBear','@ceramicBear','@noBear']
 var i  
 
@@ -46,7 +46,7 @@ for(i=0; i<5; i++){
         .pause(1000)
 for(i=0; i<5; i++){
 
-    if(artistFinishChoice===artistArray[i]){
+    if(artistFinishChoice===artistArray[i] && artistFinishChoice!=='noArtistFinish'){
         page
         .waitForElementVisible(artistArray[i])
         .click(artistArray[i])
@@ -55,7 +55,7 @@ for(i=0; i<5; i++){
     page
         .click('@dropTruck')
         .pause(1000)
-for(i=0; i<5; i++){
+for(i=0; i<7; i++){
 
     if(truckChoice===truckArray[i]){
         page
@@ -66,7 +66,7 @@ for(i=0; i<5; i++){
     page
         .click('@dropWheel')
         .pause(1000)
-for(i=0; i<5; i++){
+for(i=0; i<9; i++){
 
     if(wheelChoice===wheelArray[i]){
         page

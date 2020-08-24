@@ -1,13 +1,136 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="6">
 
   <testsuite name="test"
     errors="0" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="1" time="12.91" timestamp="">
+    tests="6" time="122.2" timestamp="">
   
-    <testcase name="User can complete custom longboard config with a Sportster deck" classname="test" time="12.91" assertions="10">
+    <testcase name="User can complete custom longboard config with the ABEC-7 bearings" classname="test" time="14.86" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="User can complete custom longboard config with the ABEC-9 bearings" classname="test" time="17.15" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="User can complete custom longboard config with the ABEC-9 Built-In bearings" classname="test" time="17.40" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="User can complete custom longboard config with the 6-Ball Built-In bearings" classname="test" time="39.20" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="User can complete custom longboard config with the Ceramic Built-In bearings" classname="test" time="16.90" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="User can complete custom longboard config with no bearings" classname="test" time="16.70" assertions="14">
+
+    
+
+    
+
+    
+
+    
 
     
 
