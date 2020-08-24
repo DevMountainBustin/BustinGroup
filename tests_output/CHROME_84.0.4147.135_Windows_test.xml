@@ -5,9 +5,11 @@
 
   <testsuite name="test"
     errors="0" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="1" time="13.23" timestamp="">
+    tests="1" time="12.91" timestamp="">
   
-    <testcase name="User can complete the Bustin Board custom board utility" classname="test" time="13.23" assertions="9">
+    <testcase name="User can complete custom longboard config with a Sportster deck" classname="test" time="12.91" assertions="10">
+
+    
 
     
 

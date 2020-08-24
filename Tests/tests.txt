@@ -1,0 +1,47 @@
+User can complete custom longboard config with a Sportster deck
+User can complete custom longboard config with a Maestro deck
+User can complete custom longboard config with a Shrike deck
+User can complete custom longboard config with a Yoface deck
+
+User can complete custom longboard config with the Capital graphic
+User can complete custom longboard config with the Boombox graphic
+User can complete custom longboard config with the Bedstuy graphic
+User can complete custom longboard config with the Direwolf graphic
+User can complete custom longboard config with the Dragon graphic
+User can complete custom longboard config with the Exposure graphic
+User can complete custom longboard config with the Jonas graphic
+User can complete custom longboard config with the Symbols graphic
+User can complete custom longboard config with the Times graphic
+User can complete custom longboard config with the Yann graphic
+
+User can complete custom longboard config with the Wood background stain
+User can complete custom longboard config with the White background stain
+User can complete custom longboard config with the Black background stain
+User can complete custom longboard config with the Red background stain
+User can complete custom longboard config with the Yellow background stain
+
+User can complete custom longboard config with the Blue artist finish
+User can complete custom longboard config with the Green artist finish
+User can complete custom longboard config with the Rainbow artist finish
+User can complete custom longboard config with the Purple artist finish
+User can complete custom longboard config with the Blue Line artist finish
+
+User can complete custom longboard config with the Black truck color
+User can complete custom longboard config with the Blue truck color
+User can complete custom longboard config with the Green truck color
+User can complete custom longboard config with the Gold truck color
+User can complete custom longboard config with no trucks
+
+User can complete custom longboard config with the Clear wheel color
+User can complete custom longboard config with the Blue wheel color
+User can complete custom longboard config with the Orange wheel color
+User can complete custom longboard config with the Black wheel color
+User can complete custom longboard config with no wheels
+
+User can complete custom longboard config with the ABEC-7 bearings
+User can complete custom longboard config with the ABEC-9 bearings
+User can complete custom longboard config with the ABEC-9 Built-In bearings
+User can complete custom longboard config with the 6-Ball Built-In bearings
+User can complete custom longboard config with the Ceramic Built-In bearings
+User can complete custom longboard config with no bearings
+
