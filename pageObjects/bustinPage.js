@@ -55,13 +55,7 @@ module.exports = {
         noBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.5.1.0"]', locateStrategy: 'xpath'},
         //Cart
         cartBtn: {selector: '//button[@data-reactid=".0.0.0.0.2.0.1.0"]', locateStrategy: 'xpath'},
-        submitBtn: {selector: '//button[@id="StickySubmit"]', locateStrategy: 'xpath'},
-        
-        
-
-
-
-
+        submitBtn: {selector: '//button[@id="StickySubmit"]', locateStrategy: 'xpath'},        
 
 
     }
