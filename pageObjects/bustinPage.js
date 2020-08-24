@@ -1,7 +1,6 @@
 module.exports = {
     url: 'https://bustinboards.com/collections/who-makes-the-best-longboard-or-skateboard-you-do',
     elements: {
-
 //Start page Buttons
         sportsterBtn: { selector: '//a[contains(text(), "DESIGN SPORTSTER")]', locateStrategy: 'xpath' },
         shrikeBtn: { selector: '//a[contains(text(), "DESIGN SHRIKE")]', locateStrategy: 'xpath' },
@@ -54,10 +53,17 @@ module.exports = {
         abec9BuiltBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.2.1.0"]', locateStrategy: 'xpath'},
         sixballBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.3.1.0"]', locateStrategy: 'xpath'},
         ceramicBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.4.1.0"]', locateStrategy: 'xpath'},
-        noBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.5.1.0"]', locateStrategy: 'xpath'},        
+        noBear: {selector: '//img[@data-reactid=".0.0.0.0.2.6.1.1.0.5.1.0"]', locateStrategy: 'xpath'},
 //Cart
         cartBtn: {selector: '//button[@data-reactid=".0.0.0.0.2.0.1.0"]', locateStrategy: 'xpath'},
-        submitBtn: {selector: '//button[@id="StickySubmit"]', locateStrategy: 'xpath'},        
+        submitBtn: {selector: '//button[@id="StickySubmit"]', locateStrategy: 'xpath'},
+        
+        
+        
+
+
+
+
 
 
     }
